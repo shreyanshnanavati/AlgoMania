@@ -5,7 +5,7 @@
 //peek = return the top value form the stack
 //length = return the total number of elements in the stack
 
-var Stack = function(){
+var Stack = () => {
 
     this.count = 0;
     this.storage = {};
